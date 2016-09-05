@@ -1,0 +1,12 @@
+yourls:
+  expose:
+    - "80"
+  environment:
+    - DBHOST
+    - DB_USER=yourls
+    - DB_NAME=yourls
+    - DB_PASSWORD
+    - FQDN
+    - YOURLS_SITE
+    - YOURL_USER=admin
+    - YOURL_PASSWORD
